@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+</head>
+<body style="background: #aaa" 
+      onload="message('Load')" onresize="message('RESIZE')">
+    <h1>Events</h1>
+    <ul onmouseover="message('HOVER')">
+        <li>onclick</li>
+        <li>onmouseover</li>
+        <li>onresize</li>
+        <li>onload</li>
+    </ul>
+    <ul>
+        <caption>Types of events</caption>
+        <li>Mouse Events</li>
+        <li>Keyboard Events</li>
+        <li>Frame Events</li>
+    </ul>
+
+    <div onclick="message('click')">
+        Click here to see message.
+    </div>
+    <script src="js/js-2.js"></script>
+</body>
+</html>
